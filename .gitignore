@@ -12,6 +12,27 @@ __pycache__/
 *_env/ 
 venv/ 
  
-# 系统文件 
-Thumbs.db 
-.DS_Store 
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 本機環境與暫存建置
+fishing_venv/
+.venv/
+build-new/
+dist-new/
+
+# 遊戲截圖、診斷圖與個人執行紀錄（保留 log/*.py 報表程式）
+screenshots/
+debug/
+log/*.log
+log/*.html
+log/log/
+
+# 用來製作文字樣板的原始遊戲畫面，不公開玩家資訊
+/1024未滿.png
+/1024滿.png
+/1920未滿.png
+/1920滿.png
+/魚餌沒了.png
+/螢幕擷取畫面*.png
